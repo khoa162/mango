@@ -1,0 +1,15 @@
+{
+  "name": "claims-data-cleanup",
+  "version": "1.0.0",
+  "description": "AI Challenge 02 — Claims Data Cleanup & Report",
+  "scripts": {
+    "generate": "node src/generate.js",
+    "clean": "node src/clean.js",
+    "start": "node src/clean.js",
+    "rebuild": "node src/generate.js && node src/clean.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "UNLICENSED"
+}

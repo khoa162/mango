@@ -1,0 +1,53 @@
+{
+  "policy_id": "POL-2024-TH-001",
+  "member_id": "MEM-88421",
+  "currency": "THB",
+  "effective_date": "2024-01-01",
+  "annual_limit": 120000,
+  "deductible": {
+    "annual": 1000,
+    "description": "Member pays the first 1,000 THB of eligible expenses each policy year before coverage begins"
+  },
+  "benefits": {
+    "OUTPATIENT": {
+      "waiting_period_days": 30,
+      "annual_sub_limit": 50000,
+      "per_visit_limit": 3000,
+      "max_visits": 30,
+      "copay": { "type": "percentage", "value": 20 },
+      "exclusions": ["Cosmetic surgery", "Elective cosmetic procedure"]
+    },
+    "INPATIENT": {
+      "waiting_period_days": 0,
+      "annual_sub_limit": 80000,
+      "per_visit_limit": 50000,
+      "max_visits": 10,
+      "copay": { "type": "percentage", "value": 10 },
+      "exclusions": ["Experimental treatment"]
+    },
+    "DENTAL": {
+      "waiting_period_days": 90,
+      "annual_sub_limit": 10000,
+      "per_visit_limit": 2000,
+      "max_visits": 8,
+      "copay": { "type": "fixed", "value": 500 },
+      "exclusions": ["Orthodontics", "Teeth whitening"]
+    },
+    "PHARMACY": {
+      "waiting_period_days": 14,
+      "annual_sub_limit": 15000,
+      "per_visit_limit": 1500,
+      "max_visits": 40,
+      "copay": { "type": "percentage", "value": 30 },
+      "exclusions": ["Over-the-counter vitamins"]
+    },
+    "PREVENTIVE": {
+      "waiting_period_days": 0,
+      "annual_sub_limit": 5000,
+      "per_visit_limit": 3000,
+      "max_visits": 5,
+      "copay": { "type": "percentage", "value": 0 },
+      "exclusions": []
+    }
+  }
+}

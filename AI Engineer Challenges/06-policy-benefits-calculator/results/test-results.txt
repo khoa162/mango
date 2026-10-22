@@ -1,0 +1,21 @@
+
+Policy Benefits Calculator — Unit Tests
+
+  ✓ daysBetween counts whole days from effective date
+  ✓ findExclusion matches diagnosis text case-insensitively
+  ✓ computeCopay supports percentage and fixed types
+  ✓ normal coverage with zero copay returns COVERED
+  ✓ percentage copay produces PARTIALLY_COVERED
+  ✓ waiting period denial
+  ✓ exclusion denial
+  ✓ per-visit limit caps eligible amount
+  ✓ earlier claims consume limits that affect later ones
+  ✓ limit exhaustion denies subsequent claims
+  ✓ annual deductible is applied once then exhausted
+  ✓ fixed dental copay is applied correctly
+  ✓ expenses are processed chronologically regardless of input order
+  ✓ summary reports remaining balance per benefit
+  ✓ calculateBenefits rejects invalid arguments
+
+Results: 15 passed, 0 failed out of 15
+

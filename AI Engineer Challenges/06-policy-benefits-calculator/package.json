@@ -1,0 +1,16 @@
+{
+  "name": "policy-benefits-calculator",
+  "version": "1.0.0",
+  "description": "AI Challenge 06 — Policy Benefits Calculator for Papaya Insurtech",
+  "main": "src/calculator.js",
+  "scripts": {
+    "start": "node src/run.js",
+    "test": "node tests/calculator.test.js",
+    "test:save": "node tests/calculator.test.js > results/test-results.txt 2>&1"
+  },
+  "keywords": ["insurance", "benefits", "calculator", "papaya"],
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14"
+  }
+}

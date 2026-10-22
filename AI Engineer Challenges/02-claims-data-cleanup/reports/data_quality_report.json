@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-10-22T19:34:04.842Z",
+  "null_marker": "NULL",
+  "cleaning": {
+    "rows_before": 500,
+    "duplicates_removed": 12,
+    "issues": {
+      "missing_claim_id": 18,
+      "missing_policy_id": 16,
+      "name_casing_normalized": 23,
+      "claim_type_typo_or_casing": 21,
+      "diagnosis_nullified": 20,
+      "invalid_amount_negative": 1,
+      "invalid_amount_zero": 7,
+      "invalid_amount_other": 0,
+      "currency_standardized": 17,
+      "date_reformatted": 11,
+      "date_unparseable": 0,
+      "status_normalized": 10,
+      "unknown_claim_type": 0,
+      "unknown_currency": 0,
+      "unknown_status": 0,
+      "rows_with_multiple_issues": 56,
+      "rows_flagged_invalid_amount_removed": 8,
+      "rows_with_any_issue": 84
+    },
+    "flagged_invalid_amount_rows": [
+      {
+        "claim_id": "CLM-00309",
+        "original_amount": "0",
+        "issues": [
+          "invalid_amount_zero"
+        ]
+      },
+      {
+        "claim_id": "CLM-00377",
+        "original_amount": "0",
+        "issues": [
+          "diagnosis_nullified",
+          "invalid_amount_zero",
+          "date_reformatted"
+        ]
+      },
+      {
+        "claim_id": "CLM-00300",
+        "original_amount": "0",
+        "issues": [
+          "diagnosis_nullified",
+          "invalid_amount_zero",
+          "currency_standardized"
+        ]
+      },
+      {
+        "claim_id": "CLM-00366",
+        "original_amount": "0",
+        "issues": [
+          "name_casing",
+          "invalid_amount_zero"
+        ]
+      },
+      {
+        "claim_id": "CLM-00301",
+        "original_amount": "0",
+        "issues": [
+          "claim_type_normalized",
+          "invalid_amount_zero"
+        ]
+      },
+      {
+        "claim_id": "CLM-00011",
+        "original_amount": "0",
+        "issues": [
+          "name_casing",
+          "invalid_amount_zero"
+        ]
+      },
+      {
+        "claim_id": "CLM-00369",
+        "original_amount": "-27346",
+        "issues": [
+          "missing_policy_id",
+          "invalid_amount_negative",
+          "date_reformatted"
+        ]
+      },
+      {
+        "claim_id": "CLM-00415",
+        "original_amount": "0",
+        "issues": [
+          "name_casing",
+          "invalid_amount_zero",
+          "currency_standardized"
+        ]
+      }
+    ],
+    "rows_after": 480,
+    "rows_removed_total": 20
+  },
+  "summary": {
+    "claims_by_type": {
+      "EMERGENCY": 107,
+      "INPATIENT": 95,
+      "DENTAL": 104,
+      "PHARMACY": 80,
+      "OUTPATIENT": 94
+    },
+    "claims_by_status": {
+      "APPROVED": 97,
+      "PENDING": 147,
+      "REJECTED": 127,
+      "IN_REVIEW": 109
+    },
+    "average_amount_by_type": {
+      "EMERGENCY": 26071.37,
+      "INPATIENT": 25726.92,
+      "DENTAL": 23204.48,
+      "PHARMACY": 25336.69,
+      "OUTPATIENT": 26323.41
+    },
+    "top_5_diagnoses": [
+      {
+        "diagnosis": "Gastritis",
+        "count": 43
+      },
+      {
+        "diagnosis": "Acute bronchitis",
+        "count": 39
+      },
+      {
+        "diagnosis": "Pneumonia",
+        "count": 39
+      },
+      {
+        "diagnosis": "Dental cavity",
+        "count": 35
+      },
+      {
+        "diagnosis": "Sprained ankle",
+        "count": 34
+      }
+    ]
+  }
+}

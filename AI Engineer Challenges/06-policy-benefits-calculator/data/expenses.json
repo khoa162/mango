@@ -1,0 +1,182 @@
+[
+  {
+    "expense_id": "EXP-001",
+    "date": "2024-01-10",
+    "benefit_type": "OUTPATIENT",
+    "sub_benefit": "Doctor Visit",
+    "amount": 2500,
+    "diagnosis": "Acute bronchitis",
+    "provider": "Bangkok Hospital"
+  },
+  {
+    "expense_id": "EXP-002",
+    "date": "2024-01-08",
+    "benefit_type": "PHARMACY",
+    "sub_benefit": "Prescription Drugs",
+    "amount": 800,
+    "diagnosis": "Acute bronchitis medication",
+    "provider": "Bangkok Hospital Pharmacy"
+  },
+  {
+    "expense_id": "EXP-003",
+    "date": "2024-01-05",
+    "benefit_type": "INPATIENT",
+    "sub_benefit": "Hospital Stay",
+    "amount": 12000,
+    "diagnosis": "Appendicitis",
+    "provider": "Bumrungrad International Hospital"
+  },
+  {
+    "expense_id": "EXP-004",
+    "date": "2024-02-15",
+    "benefit_type": "OUTPATIENT",
+    "sub_benefit": "Doctor Visit",
+    "amount": 2500,
+    "diagnosis": "Acute bronchitis",
+    "provider": "Bangkok Hospital"
+  },
+  {
+    "expense_id": "EXP-005",
+    "date": "2024-02-20",
+    "benefit_type": "OUTPATIENT",
+    "sub_benefit": "Cosmetic Consultation",
+    "amount": 5000,
+    "diagnosis": "Cosmetic surgery",
+    "provider": "Aesthetic Clinic Bangkok"
+  },
+  {
+    "expense_id": "EXP-006",
+    "date": "2024-02-25",
+    "benefit_type": "DENTAL",
+    "sub_benefit": "Dental Cleaning",
+    "amount": 1800,
+    "diagnosis": "Routine cleaning",
+    "provider": "Smile Dental Clinic"
+  },
+  {
+    "expense_id": "EXP-007",
+    "date": "2024-03-01",
+    "benefit_type": "PHARMACY",
+    "sub_benefit": "Prescription Drugs",
+    "amount": 1200,
+    "diagnosis": "Hypertension medication",
+    "provider": "Boots Pharmacy"
+  },
+  {
+    "expense_id": "EXP-008",
+    "date": "2024-03-10",
+    "benefit_type": "OUTPATIENT",
+    "sub_benefit": "Specialist Consultation",
+    "amount": 4500,
+    "diagnosis": "Migraine evaluation",
+    "provider": "Samitivej Hospital"
+  },
+  {
+    "expense_id": "EXP-009",
+    "date": "2024-03-15",
+    "benefit_type": "PHARMACY",
+    "sub_benefit": "Supplements",
+    "amount": 600,
+    "diagnosis": "Over-the-counter vitamins",
+    "provider": "Boots Pharmacy"
+  },
+  {
+    "expense_id": "EXP-010",
+    "date": "2024-04-05",
+    "benefit_type": "DENTAL",
+    "sub_benefit": "Dental Filling",
+    "amount": 1800,
+    "diagnosis": "Cavity filling",
+    "provider": "Smile Dental Clinic"
+  },
+  {
+    "expense_id": "EXP-011",
+    "date": "2024-04-12",
+    "benefit_type": "DENTAL",
+    "sub_benefit": "Orthodontic Assessment",
+    "amount": 3000,
+    "diagnosis": "Orthodontics",
+    "provider": "Smile Dental Clinic"
+  },
+  {
+    "expense_id": "EXP-012",
+    "date": "2024-05-01",
+    "benefit_type": "INPATIENT",
+    "sub_benefit": "Hospital Stay",
+    "amount": 55000,
+    "diagnosis": "Pneumonia",
+    "provider": "Bangkok Hospital"
+  },
+  {
+    "expense_id": "EXP-013",
+    "date": "2024-05-20",
+    "benefit_type": "OUTPATIENT",
+    "sub_benefit": "Doctor Visit",
+    "amount": 2000,
+    "diagnosis": "Follow-up checkup",
+    "provider": "Bangkok Hospital"
+  },
+  {
+    "expense_id": "EXP-014",
+    "date": "2024-06-01",
+    "benefit_type": "OUTPATIENT",
+    "sub_benefit": "Doctor Visit",
+    "amount": 2800,
+    "diagnosis": "Seasonal allergy",
+    "provider": "Samitivej Hospital"
+  },
+  {
+    "expense_id": "EXP-015",
+    "date": "2024-06-15",
+    "benefit_type": "PHARMACY",
+    "sub_benefit": "Prescription Drugs",
+    "amount": 1500,
+    "diagnosis": "Allergy medication",
+    "provider": "Boots Pharmacy"
+  },
+  {
+    "expense_id": "EXP-016",
+    "date": "2024-07-01",
+    "benefit_type": "OUTPATIENT",
+    "sub_benefit": "Lab Tests",
+    "amount": 3000,
+    "diagnosis": "Blood panel",
+    "provider": "Bumrungrad International Hospital"
+  },
+  {
+    "expense_id": "EXP-017",
+    "date": "2024-08-01",
+    "benefit_type": "DENTAL",
+    "sub_benefit": "Dental Filling",
+    "amount": 2000,
+    "diagnosis": "Root canal prep",
+    "provider": "Smile Dental Clinic"
+  },
+  {
+    "expense_id": "EXP-018",
+    "date": "2024-09-01",
+    "benefit_type": "INPATIENT",
+    "sub_benefit": "Hospital Stay",
+    "amount": 40000,
+    "diagnosis": "Gallbladder surgery",
+    "provider": "Bumrungrad International Hospital"
+  },
+  {
+    "expense_id": "EXP-019",
+    "date": "2024-10-01",
+    "benefit_type": "INPATIENT",
+    "sub_benefit": "Hospital Stay",
+    "amount": 15000,
+    "diagnosis": "Follow-up surgery",
+    "provider": "Bangkok Hospital"
+  },
+  {
+    "expense_id": "EXP-020",
+    "date": "2024-11-01",
+    "benefit_type": "PREVENTIVE",
+    "sub_benefit": "Annual Wellness Checkup",
+    "amount": 1500,
+    "diagnosis": "Routine preventive screening",
+    "provider": "Bangkok Hospital"
+  }
+]
