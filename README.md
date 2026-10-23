@@ -10,11 +10,14 @@ This repo has **both parts** in one place, as requested: Logical Questions + AI 
 ├── Logical Questions/
 │   └── Answers.md
 └── AI Engineer Challenges/
+    ├── AI_CONVERSATION_LOG.md           # How AI tools were directed
     ├── 02-claims-data-cleanup/          # Beginner · 1 point
     └── 06-policy-benefits-calculator/   # Intermediate · 2 points
 ```
 
 **AI Challenges score:** 1 + 2 = **3 points** (Beginner + Intermediate).
+
+**AI Conversation Log:** [`AI Engineer Challenges/AI_CONVERSATION_LOG.md`](AI%20Engineer%20Challenges/AI_CONVERSATION_LOG.md) — condensed record of prompts/intent, design decisions, and verification (not a raw chat dump).
 
 ---
 
@@ -65,4 +68,4 @@ Details: [`06-policy-benefits-calculator/README.md`](AI%20Engineer%20Challenges/
 
 ## Notes
 
-Both challenges were built with AI coding tools in the loop. The READMEs in each folder walk through how the problem was broken down, what rules were locked first, and how to verify the outputs.
+Both challenges were built with AI coding tools in the loop (Cursor). See the [AI Conversation Log](AI%20Engineer%20Challenges/AI_CONVERSATION_LOG.md) for how the work was directed and checked. Folder READMEs cover rule order and how to run each solution.
